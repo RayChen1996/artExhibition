@@ -4,7 +4,7 @@ import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  base: "/Art-Exhibition-WebLayout/",
+  base: "/artExhibition/",
   build: {
     outDir: "dist", // 输出目录
     rollupOptions: {
